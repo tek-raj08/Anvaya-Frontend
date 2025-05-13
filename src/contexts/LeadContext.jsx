@@ -5,9 +5,9 @@ import useFetch from "../useFetch";
 const LeadContext = createContext();
 
 export const LeadProvider = ({children}) => {
-    const {data, loading, error} = useFetch("https://anvaya-backend-7zaqzfvdx-tek-rajs-projects.vercel.app/leads")
-    const {data:salesAgent} = useFetch("https://anvaya-backend-7zaqzfvdx-tek-rajs-projects.vercel.app/agents")
-    const {data:dataLastWeek} = useFetch("https://anvaya-backend-7zaqzfvdx-tek-rajs-projects.vercel.app/report/last-week")
+    const {data, loading, error} = useFetch("https://anvaya-backend-git-main-tek-rajs-projects.vercel.app/leads")
+    const {data:salesAgent} = useFetch("https://anvaya-backend-git-main-tek-rajs-projects.vercel.app/agents")
+    const {data:dataLastWeek} = useFetch("https://anvaya-backend-git-main-tek-rajs-projects.vercel.app/report/last-week")
     const [lastWeek, setLastWeek] = useState("")
     const [agents, setAgents] = useState("")
     const [leads, setLeads] = useState("");
