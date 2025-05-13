@@ -31,7 +31,7 @@ const PieChart = () => {
     }
    
     const totalLeadClose = async() => {
-        const response = await fetch("https://anvaya-backend-7zaqzfvdx-tek-rajs-projects.vercel.app/leads")
+        const response = await fetch("https://anvaya-backend-git-main-tek-rajs-projects.vercel.app/leads")
         const data = await response.json()
         // console.log("Form Pie-Chart:", data)
         const closedLead = data?.leads.filter((lead) => lead.status === "Closed")
@@ -41,7 +41,7 @@ const PieChart = () => {
     // console.log("leads length:", leads)
 
     const totalLeadInPipeLine = async() => {
-        const response = await fetch("https://anvaya-backend-7zaqzfvdx-tek-rajs-projects.vercel.app/report/pipeline")
+        const response = await fetch("https://anvaya-backend-git-main-tek-rajs-projects.vercel.app/report/pipeline")
         const data = await response.json()
         // console.log("From pie-chart totalLead close:", data)
         setPipeLine(data?.totalLeadsInPipeline)
