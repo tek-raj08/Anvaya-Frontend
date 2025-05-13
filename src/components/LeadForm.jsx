@@ -37,7 +37,7 @@ const LeadForm = () => {
   useEffect(() => {
     const fetchAgents = async () => {
         try{
-            const res = await fetch("https://anvaya-backend-7zaqzfvdx-tek-rajs-projects.vercel.app/agents")
+            const res = await fetch("https://anvaya-backend-git-main-tek-rajs-projects.vercel.app/agents")
             const data = await res.json();
             // console.log("From saleData", data)
             setAgent(data)
@@ -78,7 +78,7 @@ const LeadForm = () => {
     event.preventDefault();
 
     try {
-      const response = await fetch("https://anvaya-backend-7zaqzfvdx-tek-rajs-projects.vercel.app/leads", {
+      const response = await fetch("https://anvaya-backend-git-main-tek-rajs-projects.vercel.app/leads", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
