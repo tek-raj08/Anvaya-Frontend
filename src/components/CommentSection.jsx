@@ -9,7 +9,7 @@ const CommentSection = ({ lead }) => {
       const fetchComment = async () => {
         // console.log("Lead Value:", lead)
         const response = await fetch(
-          `https://anvaya-backend-7zaqzfvdx-tek-rajs-projects.vercel.app/leads/${lead?._id}/comments`
+          `https://anvaya-backend-git-main-tek-rajs-projects.vercel.app/leads/${lead?._id}/comments`
         );
         const data = await response.json();
         // console.log("From Fetch comment:", data);
