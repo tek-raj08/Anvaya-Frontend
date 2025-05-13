@@ -19,7 +19,7 @@ const SalesAgetForm = () => {
         event.preventDefault();
 
         try{
-            const response = await fetch("https://anvaya-backend-7zaqzfvdx-tek-rajs-projects.vercel.app/agents", {
+            const response = await fetch("https://anvaya-backend-git-main-tek-rajs-projects.vercel.app/agents", {
                 method:"POST",
                 headers: {"Content-Type" : "application/json"},
                 body: JSON.stringify(formData)
