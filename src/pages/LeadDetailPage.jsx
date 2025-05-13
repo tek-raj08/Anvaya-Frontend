@@ -18,7 +18,7 @@ const LeadDetailPage = () => {
   };
   const fetchLead = async () => {
     try {
-      const response = await fetch(`https://anvaya-backend-7zaqzfvdx-tek-rajs-projects.vercel.app/leads/${leadId}`);
+      const response = await fetch(`https://anvaya-backend-git-main-tek-rajs-projects.vercel.app/leads/${leadId}`);
       const data = await response.json();
       // console.log("from lead Detal page:", data);
       setLead(data.lead);
