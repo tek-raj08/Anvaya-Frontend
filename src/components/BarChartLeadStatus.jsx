@@ -33,7 +33,7 @@ const BarChartLeadStatus = () => {
       ];
 
     const fetchLeads = async() => {
-        const response = await fetch("https://anvaya-backend-7zaqzfvdx-tek-rajs-projects.vercel.app/leads")
+        const response = await fetch("https://anvaya-backend-git-main-tek-rajs-projects.vercel.app/leads")
         const data = await response.json()
         const leads = data?.leads
 
