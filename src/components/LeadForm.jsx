@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useEffect } from "react";
-import "./LeadForm.css"
+import "./Leadform.css"
 
 const LeadForm = () => {
   const [formData, setFormData] = useState({
