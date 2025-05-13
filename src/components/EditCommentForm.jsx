@@ -8,7 +8,7 @@ const EditCommentForm = ({ lead }) => {
   useEffect(() => {
     try {
       const fetchSalesAgent = async () => {
-        const response = await fetch("http://localhost:3000/agents");
+        const response = await fetch("https://anvaya-backend-git-main-tek-rajs-projects.vercel.app/agents");
 
         const data = await response.json();
         console.log("From Edit comment form:", data);
@@ -28,7 +28,7 @@ const EditCommentForm = ({ lead }) => {
     const fetchComment = async () => {
       try {
         const response = await fetch(
-          `http://localhost:3000/leads/${lead._id}/comments`
+          `https://anvaya-backend-git-main-tek-rajs-projects.vercel.app/leads/${lead._id}/comments`
         );
 
         const data = await response.json();
@@ -60,7 +60,7 @@ const EditCommentForm = ({ lead }) => {
     
       try {
         const response = await fetch(
-          `http://localhost:3000/comments/${comments.id}`,
+          `https://anvaya-backend-git-main-tek-rajs-projects.vercel.app/comments/${comments.id}`,
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },
