@@ -1,0 +1,65 @@
+.lead-details-page {
+    display: flex;
+    font-family: Arial, sans-serif;
+    padding: 1rem 2rem;
+    background-color: #f4f6f8;
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+  }
+  
+  .back-button {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 0.4rem 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .lead-main {
+    background-color: #ffffff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lead-info-card {
+    margin-bottom: 2rem;
+  }
+  
+  .lead-info-card p {
+    margin: 0.5rem 0;
+  }
+  
+  .edit-btn {
+    margin-top: 1rem;
+    background-color: #007bff;
+    color: white;
+    padding: 0.6rem 1.4rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+
+  .lead-title {
+      font-size: 2.5rem;
+      font-weight: bold;
+      color: #1e293b; /* Slate shade */
+      text-align: center;
+      margin: 2rem 0 1.5rem 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+  
+    .lead-edit button {
+      /* margin-top: 1rem; */
+    background-color: #007bff;
+    color: white;
+    padding: 0.6rem 1.4rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    }

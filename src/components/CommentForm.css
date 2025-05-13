@@ -1,0 +1,28 @@
+.comment-container {
+    margin-top: 3rem;
+}
+
+.submit-comment-button {
+    margin-top: 1rem;
+    background-color: #007bff;
+    color: white;
+    padding: 0.6rem 1.4rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.comment-input {
+    margin-top: 1rem;
+    border:  1px solid #ccc;
+    border-radius: 6px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+.comment-label {
+    font-size: 1.5rem;
+    font-weight: 700;
+}

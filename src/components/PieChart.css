@@ -1,0 +1,11 @@
+
+.pie-chart {
+    /* width: 50%;
+    height: 50%; */
+    display: flex;
+  justify-content: center;  /* Horizontally center */
+  align-items: center;      /* Vertically center */
+  height: 60vh;
+  width: 70vw;            /* Full viewport height (optional) */
+  background-color: #f5f7fa; /* Optional: soft background */
+}

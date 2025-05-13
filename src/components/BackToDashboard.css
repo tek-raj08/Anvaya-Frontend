@@ -1,0 +1,25 @@
+.back-button {
+  margin-top: 1.8rem;
+    background-color: #6c757d;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #5a6268;
+  }
+  
+
+  .back-to-dashboard {
+    
+    width: 200px;
+    background-color: #1e1e2f;
+    color: white;
+    padding: 20px;
+  }
